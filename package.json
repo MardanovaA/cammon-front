@@ -1,0 +1,31 @@
+{
+  "name": "rtsp_server",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "bootstrap": "^4.6.0",
+    "bootstrap-vue": "^2.21.2",
+    "konva": "^7.2.3",
+    "node-rtsp-stream": "0.0.9",
+    "vue": "^2.6.12",
+    "vue-cli": "^2.9.6",
+    "vue-konva": "^2.1.7",
+    "vue-progress-path": "0.0.2",
+    "vue-router": "^3.5.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-router": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
